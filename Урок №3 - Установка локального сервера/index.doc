@@ -1,0 +1,14 @@
+Урок №3 - Установка локального сервера
+
+Denwer
+
+лежит в: C:\WebServers\denwer
+1. run
+2. stop 
+3. SwitchOff
+
+запуск http://localhost
+
+путь для сайта: C:\WebServers\home\mysite\www
+
+открыть в браузере: http://mysite
