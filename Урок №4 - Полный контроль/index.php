@@ -21,14 +21,13 @@
         // можем сделать загрузку с методами .show() / .hide(), img в html сделать дисплей block
     }
 
-
         $(document).ready(function(){
             $("#load").bind("click", function(){
                 var admin = "Admin";
-                $.ajax({
+                $.ajax({    
                     // то на какую страницу будем отправлять данные
                     url: "content.php",
-                    // определяет каким образом мы будем отправлять данные
+                    // определяет каким образом мы будем отправлять данные есть POSET / GET
                     type: "POST",
                     // передаем переменые (параметры)
                     data: ({name: admin, number: 5}),
